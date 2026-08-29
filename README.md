@@ -1,9 +1,10 @@
 # RxClock
 
-Two siblings, one aging parent, two WhatsApp messages that both say “I gave the
-8pm pill”. Double-dosing is the failure mode. The first claim owns the slot.
+Medication administration with a single-writer lock per dose interval. The
+first caregiver to record a slot owns it; a second cannot administer the same
+interval. The failure mode this prevents is double-dosing.
 
-The lock is in [`src/lib/dose.ts`](src/lib/dose.ts).
+The lock is [`src/lib/dose.ts`](src/lib/dose.ts).
 
 **React 19 · TypeScript (strict) · Vite 8 · Tailwind CSS 4 · Zustand · Vitest ·
 Playwright**
@@ -23,11 +24,11 @@ and Logs (Mountain View).
 | -------- | --------------------------------------------------------------------------------------- |
 | GitHub   | [github.com/alexalghisi](https://github.com/alexalghisi)                                |
 | LinkedIn | [linkedin.com/in/alghisi](https://www.linkedin.com/in/alghisi)                          |
-| Email    | [alessandro@onlineparentingprograms.com](mailto:alessandro@onlineparentingprograms.com) |
+| Email    | [alexalghisi@gmail.com](mailto:alexalghisi@gmail.com)                                   |
 | Location | Cluj-Napoca, Romania · open to remote / EU / US-friendly timezones                      |
 
 **Hiring?** Open an issue, message me on LinkedIn, or email
-[alessandro@onlineparentingprograms.com](mailto:alessandro@onlineparentingprograms.com).
+[alexalghisi@gmail.com](mailto:alexalghisi@gmail.com).
 
 ---
 
