@@ -48,5 +48,5 @@
     "vitest": "^4.1.10"
   },
   "name": "rxclock",
-  "description": "Family pill clock. One sibling claims a dose; the second cannot. Double-dosing an aging parent is the failure mode."
+  "description": "Medication administration lock: the first recorded dose owns the slot; a second caregiver cannot repeat it."
 }
