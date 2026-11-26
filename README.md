@@ -4,6 +4,10 @@ Medication administration with a single-writer lock per dose interval. The
 first caregiver to record a slot owns it; a second cannot administer the same
 interval. The failure mode this prevents is double-dosing.
 
+**Download:** [latest release](https://github.com/alexalghisi/RxClock/releases/latest)
+
+![RxClock running](docs/preview.png)
+
 The lock is [`src/lib/dose.ts`](src/lib/dose.ts).
 
 **React 19 · TypeScript (strict) · Vite 8 · Tailwind CSS 4 · Zustand · Vitest ·
